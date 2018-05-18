@@ -31,6 +31,7 @@ public class window implements ToolWindowFactory {
     public static final String FILE_PATH = "D:\\xTemp.txt";
 
     public window() {
+
         clearButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
